@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+
+<body>
+  <section>
+    <form action="">
+      <div class="container">
+
+        <div class="heading">
+          <h1>Currency Converter</h1>
+          <h4>Trusted Currency Converter Ever</h4>
+        </div>
+
+        <div class="amount">
+          <p>Enter Amount:</p>
+          <input type="text" id="inputdata">
+        </div>
+
+        <div class="sub-container">
+          
+          <div class="select-country">
+            <p>From</p>
+            <img src="https://flagsapi.com/US/shiny/64.png" alt="Australia flag">
+            <select name="country" id="from"></select>
+          </div>
+
+          <div class="icon">
+            <i class="fa-solid fa-shuffle"></i>
+          </div>
+
+         
+          <div class="select-country">
+            <p>To</p>
+            <img src="https://flagsapi.com/NP/shiny/64.png" alt="Nepal flag">
+            <select name="country" id="to"></select>
+          </div>
+        </div>
+
+        <div class="message"><p>1 AUD = NPR 80</p></div>
+        <div class="btn"><button class="get-started">Get Exchange Rate</button></div>
+      </div>
+      </div>
+    </form>
+  </section>
+  <script src="Flags.js"></script>
+  <script src="converter.js"></script>
+</body>
+
+</html>
